@@ -10,10 +10,11 @@
   width:100%;
   height:100vh;
   background: #2c302d;
+  
 }
 .card {
-  width: 60%;
-  height:80%;
+  width: 70%;
+  height:90%;
   max-height: 300px;
   padding: auto;
   text-align: center;
@@ -42,6 +43,8 @@
 box-shadow:  16px 16px 44px #0a0a0a, 
              -16px -16px 44px #282a28;
     transition: 0.3s all ease-in-out;
+    text-align: left;
+    
   }
   card__content:hover{
       margin-top:-10px;
@@ -50,7 +53,8 @@ box-shadow:  16px 16px 44px #0a0a0a,
  .card__header {
     text-transform: uppercase;
     font-size: 20px;
-    margin: 40px auto;
+    margin: 10px auto;
+    margin-left: 0px;
   }
   .card__button {
     padding: 10px;
